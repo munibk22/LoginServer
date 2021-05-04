@@ -4,6 +4,10 @@ const express = require("express");
 const app = express();
 const bcrypt = require("bcrypt");
 const expressLayouts = require("express-ejs-layouts");
+const connectDb = require("./config/db");
+
+connectDb();
+
 
 //EJS
 app.use(expressLayouts);

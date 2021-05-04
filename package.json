@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "devStart": "nodemon Server.js"
+    "start": "node Server.js",
+    "devStart": "nodemon Server.js",
+    "data:import":"node seederScript.js"
   },
   "keywords": [],
   "author": "",
